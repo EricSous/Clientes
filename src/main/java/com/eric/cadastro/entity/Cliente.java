@@ -1,10 +1,10 @@
 package com.eric.cadastro.entity;
 
+import com.eric.cadastro.enumeration.TipoUsuarioEnum;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import java.time.Instant;
 import java.util.Date;
 
 @Getter
@@ -31,4 +31,7 @@ public class Cliente {
 
     @Column(name = "dataCriacao", nullable = false)
     private Date dataCriacao;
+
+    @Column(name = "tipoUsuario", nullable = false)
+    private TipoUsuarioEnum tipoUsuario;
 }
