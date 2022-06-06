@@ -2,5 +2,5 @@ package com.eric.cadastro.enumeration;
 
 public enum TipoUsuarioEnum {
 
-    USUARIO_PADRAO, SUPER_ADMNISTRADOR;
+    USUARIO_INVALIDADO,USUARIO_VALIDO, SUPER_ADMNISTRADOR;
 }
